@@ -18,6 +18,9 @@ class Welcome extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /**
+     * Display all quotes on the home page
+     */
     function index() {
         $this->data['pagebody'] = 'homepage';    // this is the view we want shown
         // build the list of authors, to pass on to our view
@@ -31,6 +34,9 @@ class Welcome extends Application {
         $this->render();
     }
 
+    /**
+     * Display the second quote
+     */
     function shucks() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
 

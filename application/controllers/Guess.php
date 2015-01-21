@@ -18,6 +18,9 @@ class Guess extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /**
+     * Display the fourth quote
+     */
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
 

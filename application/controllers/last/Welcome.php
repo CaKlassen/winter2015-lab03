@@ -18,6 +18,9 @@ class Welcome extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /**
+     * Display the last quote
+     */
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
 

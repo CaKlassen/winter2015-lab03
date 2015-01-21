@@ -18,6 +18,9 @@ class First extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /**
+     * Display the first quote only
+     */
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
 
@@ -42,6 +45,11 @@ class First extends Application {
         $this->render();
     }
     
+    /**
+     * Display a specific quote (we're calling the third one)
+     * 
+     * @param type $val the quote to display
+     */
     function gimme($val) {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
 
