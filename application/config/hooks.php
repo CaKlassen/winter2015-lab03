@@ -10,7 +10,13 @@
 |
 */
 
-
+$hook['display_override'] = array(
+    'class' => 'Masseuse',
+    'function' => 'embolden',
+    'filename' => 'Masseuse.php',
+    'filepath' => 'hooks',
+    'params' => array()
+);
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
